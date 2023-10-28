@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 15s
+  scrape_timeout: 10s
+  evaluation_interval: 15s
+
+alerting:
+  alertmanagers:
+  - static_configs:
+    - targets: []
+    scheme: http
+    timeout: 10s
+    api_version: v1
+
+scrape_configs:
+  - job_name: prometheus
+    honor_timestamps: true
+    scheme: http
+    static_configs:
+    - targets:
+      - localhost:9090
+  
+  - job_name: jenkins
+    honor_timestamps: true
+    metrics_path: /prometheus/
+    follow_redirects: true
+    static_configs:
+      - targets:
+          - jenkins:8080
