@@ -30,6 +30,8 @@ To setup the project, follow the steps below:
 
 - Once Jenkins restarts, the logs will be visible at `localhost:8080/prometheus/`
 
+![Jenkins-Logs](images/jenkins-logs.png)
+
 - You can configure prometheus by navigating to `Manage Jenkins` > `System` > `Prometheus`
 
 ![Prometheus-Jenkins](images/jenkins-system-config.png)
