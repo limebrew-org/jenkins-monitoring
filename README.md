@@ -9,6 +9,11 @@ The pre-requisites for this project is having Docker and Docker Compose
 ## Setup:
 To setup the project, follow the steps below:
 
+### Clone Repository:
+Clone the repository using git:
+
+        git clone git@github.com:limebrew-org/jenkins-monitoring.git
+
 ### Jenkins Setup:
 - Setup Jenkins locally using Docker Compose:
 
