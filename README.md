@@ -1,6 +1,8 @@
 # jenkins-monitoring
 Monitoring Jenkins with Prometheus and Grafana
 
+![Grafana-Dashboard](images/grafana-dashboard.png)
+
 ## Pre-Requisites:
 The pre-requisites for this project is having Docker and Docker Compose
 
