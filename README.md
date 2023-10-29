@@ -12,6 +12,8 @@ To setup the project, follow the steps below:
 
         docker-compose up -d jenkins
 
+![Jenkins](images/terminal-jenkins.png)
+
 - Setup the admin password by exec into the docker container or via docker logs
 
         docker exec -it jenkins sh
