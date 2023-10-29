@@ -24,13 +24,15 @@ To setup the project, follow the steps below:
 
 - Now once everything is setup, Navigate to `Manage Jenkins` > `Plugins` > `Available` and then search for the two plugins:
 
-        - Prometheus metric plugin
-        
-        - Cloudbees Disk Usage Simple Plugin
+![Plugins](images/jenkins-plugins.png)
 
 - Choose the 2 plugins and install and then restart Jenkins once downloaded.
 
 - Once Jenkins restarts, the logs will be visible at `localhost:8080/prometheus/`
+
+- You can configure prometheus by navigating to `Manage Jenkins` > `System` > `Prometheus`
+
+![Prometheus-Jenkins](images/jenkins-system-config.png)
 
 
 ### Prometheus Setup:
